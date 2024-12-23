@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_OPTIONS=--no-deprecation next dev",
-    "build": "cross-env NODE_OPTIONS=--no-deprecation next build",
-    "start": "cross-env NODE_OPTIONS=--no-deprecation next start",
+    "build": "next build",
+    "start": "next start",
     "lint": "next lint",
     "compile": "tsc && node --trace-deprecation dist/src/app.js"
   },
